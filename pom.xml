@@ -48,11 +48,20 @@
             <artifactId>rest-assured</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.primefaces</groupId>
+            <artifactId>quarkus-primefaces</artifactId>
+            <version>3.15.7</version>
+        </dependency>
 
         <!-- Hibernate ORM -->
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-hibernate-orm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-hibernate-orm-panache</artifactId>
         </dependency>
 
         <!-- PostgreSQL -->
