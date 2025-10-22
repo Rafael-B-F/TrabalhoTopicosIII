@@ -30,17 +30,17 @@ public class BibliotecaBean implements Serializable {
 
     @PostConstruct
     public void init() {
-        carregarDados();
+        carregarInformacao();
         carregarEstatisticas();
     }
 
-    private void carregarDados() {
+    private void carregarInformacao() {
         try {
             autores = bibliotecaService.listarTodosAutoresComSeusLivros();
             livros = bibliotecaService.listarTodosLivros();
             emprestimos = bibliotecaService.listarTodosEmprestimos();
         } catch (Exception e) {
-            System.out.println("Erro ao carregar dados: " + e.getMessage());
+            System.out.println("Erro ao carregar informações: " + e.getMessage());
         }
     }
 
