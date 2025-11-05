@@ -53,6 +53,11 @@
             <artifactId>quarkus-primefaces</artifactId>
             <version>3.15.7</version>
         </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.primefaces</groupId>
+            <artifactId>quarkus-primefaces-extensions</artifactId>
+            <version>3.15.7</version>
+        </dependency>
 
         <!-- Hibernate ORM -->
         <dependency>
